@@ -2,9 +2,9 @@ import './DatosPrincipalesForm.css';
 
 const DatosPrincipalesForm = () => {
 	return (
-		<div className="datos-principales">
-			<form className="datos-principales_form">
-				<div className="form_input-nombre">
+		<div className="datos">
+			<form className="datos_form">
+				<div className="datos_form_nombre">
 					<label className="input-nombre_titulo">Nombre</label>
 					<input
 						type="text"
@@ -12,7 +12,7 @@ const DatosPrincipalesForm = () => {
 						className="input-nombre_campo"
 					/>
 				</div>
-				<div className="form_input-descripcion">
+				<div className="datos_form_descripcion">
 					<label className="input-descripcion_titulo">Descripción</label>
 					<input
 						type="text"

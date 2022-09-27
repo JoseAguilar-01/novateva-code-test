@@ -1,13 +1,13 @@
-.datos-principales {
+.datos {
 	margin: 40px 70px;
 }
-.datos-principales_form {
+.datos_form {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.form_input-nombre,
-.form_input-descripcion {
+.datos_form_nombre,
+.datos_form_descripcion {
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
