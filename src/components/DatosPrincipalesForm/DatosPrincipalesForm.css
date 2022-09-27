@@ -1,0 +1,23 @@
+.datos-principales {
+	margin: 40px 70px;
+}
+.datos-principales_form {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.form_input-nombre,
+.form_input-descripcion {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	width: 50%;
+	padding: 0 20px;
+}
+.input-nombre_campo,
+.input-descripcion_campo {
+	padding: 10px;
+	border-radius: 5px;
+	color: #9b9b9b;
+	border: 1px solid #dddddd;
+}
